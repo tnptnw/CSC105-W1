@@ -1,0 +1,64 @@
+h1 {
+  color: red;
+}
+p {
+  font-size: 20px;
+}
+#intro {
+  color: green;
+}
+.intro {
+  color: blue;
+}
+.content {
+  background: #eee;
+}
+.content h1 {
+  color: red;
+}
+.content p {
+  color: green;
+}
+.ainf {
+  background-color: white;
+  position: absolute;
+  border-style: outset;
+  width: 550px;
+  height: 300px;
+  top: 50%;
+  left: 50%;
+  margin-top: -150px;
+  margin-left: -275px;
+}
+.inf {
+  font-family: "Anton", sans-serif;
+  font-family: "Mitr", sans-serif;
+  font-family: "Pridi", serif;
+  float: right;
+  margin-top: 70px;
+  margin-right: 70px;
+}
+body {
+  background: linear-gradient(-45deg, #022829, #013e45, #00626b, #008c9e);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+}
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.img {
+  position: relative;
+  width: 180px;
+  height: 240px;
+  top: 30px;
+  left: 20px;
+}
